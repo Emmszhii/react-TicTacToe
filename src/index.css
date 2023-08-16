@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .app {
+    @apply flex items-center justify-center h-[100vh];
+  }
+  .app-group {
+    @apply flex flex-col;
+  }
+  .row-box {
+    @apply flex items-center;
+  }
+  .box {
+    @apply border-black border-[1px] w-[4rem] h-[4rem] text-[3rem] flex items-center justify-center cursor-pointer hover:bg-slate-700 hover:text-white transition-all;
+  }
+}
